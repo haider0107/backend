@@ -15,7 +15,7 @@ connectDB()
     });
 
     app.listen(process.env.PORT || 5000, () => {
-      console.log(`Port is running on ${process.env.PORT}`);
+      console.log(`⚙️  Port is running on ${process.env.PORT}`);
     });
   })
   .catch((err) => {
